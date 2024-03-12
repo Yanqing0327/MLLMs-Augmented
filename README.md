@@ -1,9 +1,19 @@
-# MLLMs-Augmented Visual-Language Representation Learning
-The official implementation of [MLLMs-Augmented Visual-Language Representation Learning](https://arxiv.org/pdf/2311.18765.pdf).
+We provide code for generating captions using MiniGPT-4, Qwen-VL, Otter, and LLaVA-1.5.
+You need to download the model's weight following the official implementation.
+We provide the corresponding repository here:
+MiniGPT-4: https://github.com/Vision-CAIR/MiniGPT-4.git
+Qwen-VL: https://github.com/QwenLM/Qwen-VL.git
+Otter: https://github.com/Luodian/Otter.git
+LLaVA-1.5: https://github.com/haotian-liu/LLaVA.git
 
-We will release the code soon!
+You can generate captions by running:
 
-## Abstract
-Visual-language pre-training (VLP) has achieved remarkable success in multi-modal tasks, largely attributed to the availability of large-scale image-text datasets. In this work, we demonstrate that multi-modal large language models (MLLMs) can enhance visual-language representation learning by improving data quality. Our approach is simple, utilizing MLLMs to extend multiple captions for each image. To prevent the bias introduced by MLLMs' hallucinations and intrinsic caption styles, we propose "text shearing" to maintain the same length for extended captions as that of the original captions. In image-text retrieval, our method consistently obtains 5.6 ~ 35.0\% and 16.8 ~ 46.1\% improvement on R@1 under the fine-tuning and zero-shot settings, respectively. Notably, we obtain zero-shot results that are comparable to fine-tuning on target datasets, which encourages more exploration of the versatile use of MLLMs.
+```
+conda env create -f environment.yml
+conda activate xxxxx
+sh ./model_name/generate.sh
+```
 
-<div align=center><center><img src="figs/pipeline.jpg" align="middle" width="100%"></center></div>
+Before generated captions, you may need to split the json file. And there is code for processing the json file in the folder './json_process'
+
+After these operations, you can conduct the visual-langugage pretraining in a standard pipeline.

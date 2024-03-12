@@ -1,0 +1,1 @@
+python minigpt4.py --cfg-path eval_configs/minigpt4_eval.yaml
