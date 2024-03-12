@@ -17,8 +17,11 @@ Visual-language pre-training has achieved remarkable success in many multi-modal
 We provide code for generating captions using MiniGPT-4, Qwen-VL, Otter, and LLaVA-1.5. You may need to download the model's weight following the official implementation. We provide the corresponding repository here:
 
 MiniGPT-4: https://github.com/Vision-CAIR/MiniGPT-4.git
+
 Qwen-VL: https://github.com/QwenLM/Qwen-VL.git
+
 Otter: https://github.com/Luodian/Otter.git
+
 LLaVA-1.5: https://github.com/haotian-liu/LLaVA.git
 
 
