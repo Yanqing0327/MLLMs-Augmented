@@ -12,6 +12,11 @@ Visual-language pre-training has achieved remarkable success in many multi-modal
 
 
 
+## Authors
+
+- [Yanqing Liu](https://scholar.google.com.hk/citations?user=2obvvPoAAAAJ&hl=zh-CN&oi=ao)<sup>1,2* </sup>, [Kai Wang](https://scholar.google.com.hk/citations?user=i2II0XIAAAAJ&hl=zh-CN&oi=sra)<sup>1†* </sup>, [Wenqi Shao](https://scholar.google.com.hk/citations?user=Bs9mrwwAAAAJ&hl=zh-CN&oi=sra)<sup>2</sup>, [Ping Luo](https://scholar.google.com.hk/citations?user=aXdjxb4AAAAJ&hl=zh-CN&oi=sra)<sup>2,3</sup>, [Yu Qiao](https://scholar.google.com.hk/citations?user=gFtI-8QAAAAJ&hl=zh-CN&oi=sra)<sup>2</sup>, [Mike Zheng Shou](https://scholar.google.com.hk/citations?user=h1-3lSoAAAAJ&hl=zh-CN&oi=sra)<sup>1</sup>, [Kaipeng Zhang](https://scholar.google.com.hk/citations?user=4OqZBmYAAAAJ&hl=zh-CN&oi=sra)<sup>2‡</sup>, [Yang You](https://scholar.google.com.hk/citations?user=jF4dPZwAAAAJ&hl=zh-CN&oi=ao)<sup>1‡</sup> (* equal contribution, †project lead, ‡corresponding author)
+- <sup>1</sup>[National University of Singapore](https://www.nus.edu.sg/), <sup>2</sup>[OpenGVLab, Shanghai AI Laboratory](https://www.shlab.org.cn/), and <sup>3</sup>[The University of Hong Kong](https://www.hku.hk/)
+
 ## MLLMs-Augmented Datasets
 
 You can access our enhanced datasets by this :
@@ -62,4 +67,4 @@ If you found our work useful, please consider citing us.
 
 ## Acknowledgments
 
-We thank [Yu Qiao](https://scholar.google.com.hk/citations?user=gFtI-8QAAAAJ&hl=zh-CN&oi=sra), [Ping Luo](https://scholar.google.com.hk/citations?user=aXdjxb4AAAAJ&hl=zh-CN&oi=sra), [Shou Mike Zheng](https://scholar.google.com.hk/citations?user=h1-3lSoAAAAJ&hl=zh-CN&oi=sra),  [Wenqi Shao](https://scholar.google.com.hk/citations?user=Bs9mrwwAAAAJ&hl=zh-CN&oi=sra), [Ziheng Qin](https://scholar.google.com/citations?user=I04VhPMAAAAJ&hl=zh-CN), [Zangwei Zheng,](https://zhengzangw.github.io/) [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=zh-CN), and [Ziyao Guo](https://scholar.google.com.hk/citations?user=FlZSxJMAAAAJ&hl=zh-CN&oi=ao) for valuable discussions and feedback.
+We thank [Ziheng Qin](https://scholar.google.com/citations?user=I04VhPMAAAAJ&hl=zh-CN), [Zangwei Zheng,](https://zhengzangw.github.io/) [Xiangyu Peng](https://scholar.google.com/citations?user=KRUTk7sAAAAJ&hl=zh-CN), and [Ziyao Guo](https://scholar.google.com.hk/citations?user=FlZSxJMAAAAJ&hl=zh-CN&oi=ao) for their valuable discussions and feedback.
